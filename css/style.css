@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.info-title {
+    margin-bottom: 16px;
+}
+
+.info-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.h-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.email {
+    font-size: 18px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 24px;
+    border-bottom: 4px #000 solid;
+}
+
+.skills-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #000000;
+}
+
+.skill {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.att-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.att-link:hover {
+    background-color: #e4e4e4;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.sm-link {
+    font-size: 40px;
+    color: #000;
+    margin-right: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-i {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 6px 91px 6px 10px;
+    border-bottom: 2px #D0D1D3 solid;
+    cursor: pointer;
+}
+
+.nav-i:hover {
+    border-bottom: 2px #2e3543 solid;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.selected-nav-i {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 6px 91px 6px 10px;
+    border-bottom: 2px #000 solid;
+}
+
+nav {
+    position: absolute;
+    right: 40px;
+    margin-top: 40px;
+    display: flex;
+    gap: 32px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+select {
+    border: none;
+}
+
+.whole {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    gap: 64px;
+    padding: 0 40px;
+    height: 76%;
+}
+
+header {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-content {
+    display: flex;
+    gap: 43px;
+}
+
+.about-text {
+    margin-top: 80px;
+    padding-bottom: 32px;
+    border-bottom: 4px #000 solid;
+}
+
+.main-info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills {
+    padding: 0 0 16px 24px;
+    border-left: 4px #000 solid;
+}
+
+.skills-list {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.pd-list {
+    margin-bottom: 16px;
+}
+
+/* work content */
+
+.work-content {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 260%;
+    padding-left: 32px;
+    border-left: 4px #000 solid;
+}
+
+.case-study {
+    display: flex;
+    padding: 8px;
+}
+
+.case-study:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.cs-img {
+    width: 400px;
+    height: 140px;
+    background: #D9D9D9;
+    margin-right: 40px;
+}
+
+.cs-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.cs-role {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+
+.cs-s {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.cs-header {
+    margin-bottom: 16px;
+}
+
+.cs-text {
+    margin-bottom: 16px;
+}
+
+.cs-skills {
+    display: flex;
+    gap: 16px;
+}
