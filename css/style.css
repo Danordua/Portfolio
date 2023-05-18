@@ -143,7 +143,6 @@ select {
 }
 
 .whole {
-    /* position: absolute; */
     margin-top: 40px;
     display: flex;
     gap: 64px;
