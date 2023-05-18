@@ -38,6 +38,28 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.p-highlight {
+    color: #0B558C;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+section {
+    margin-top: 32px;
+}
+
+.s-title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0.16em;
+    color: #414042;
+    text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
 .back {
@@ -70,4 +92,97 @@ p {
     margin-top: 32px;
     display: flex;
     gap: 120px;
+}
+
+.s-value{
+font-size: 12px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0.16em;
+text-transform: uppercase;
+}
+
+.logo-text{
+    font-size: 8px;
+}
+
+main{
+    margin: 16px 40px;
+}
+
+.intro-p {
+    /* margin-bottom: 32px; */
+}
+
+.learned-things {
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.banner {
+    margin-left: -40px;
+    margin-top: 40px;
+    width: 100vw;
+    height: 400px;
+    background: #414042;
+}
+
+.problem-banners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.problem-banner {
+    width: 643px;
+    height: 380px;
+    background: #D9D9D9;
+    border-radius: 8px;
+}
+
+.solution-metrics {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.solution-metric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solution-img {
+    padding: 10px;
+    width: 83px;
+    background: #646464;
+    border-radius: 25px;
+}
+
+.s-i {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.solution-text {
+    width: 232px;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.process-diagram {
+    width: 100%;
 }
