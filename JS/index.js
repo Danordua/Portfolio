@@ -3,6 +3,7 @@ const workButton = document.querySelector('.work-btn');
 const aboutContent = document.querySelector('.main-content');
 const workContent = document.querySelector('.work-content');
 const odyssey = document.querySelector('.odyssey');
+const wbccares = document.querySelector('.wbccares');
 
 aboutButton.addEventListener('click', () =>{
     aboutContent.style.display = "flex";
@@ -22,6 +23,10 @@ workButton.addEventListener('click', () =>{
 
 odyssey.addEventListener('click', () => {
     location.replace("odyssey.html")
+})
+
+wbccares.addEventListener('click', () => {
+    location.replace("wbccares.html")
 })
 
 
