@@ -515,7 +515,8 @@ text-transform: uppercase;
     }
 
     body {
-        margin: 0 16px;
+        margin-left: 16px;
+        margin-right: -28px;
         padding: 0;
     }
 
