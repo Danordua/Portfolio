@@ -328,6 +328,7 @@ header {
     }
 }
 
+/* phone */
 @media (max-width: 900px) {
 
     nav {

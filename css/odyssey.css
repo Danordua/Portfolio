@@ -11,6 +11,10 @@
     padding: 0; 
 }
 
+main{
+    margin: 16px 40px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
@@ -70,15 +74,6 @@ ul {
     list-style: none;
 }
 
-.s-title {
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 33px;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-}
-
 .back {
     display: flex;
     justify-content: center;
@@ -108,10 +103,23 @@ ul {
 .specs {
     margin-top: 32px;
     display: flex;
+    gap: 80px;
+}
+
+.role-specs, .tools-specs {
+    display: flex;
     flex-wrap: wrap;
+    gap: 80px;
     justify-content:space-between;
-    padding-right: 48px;
-    gap: 40px;
+}
+
+.s-title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
 .s-value{
@@ -124,10 +132,6 @@ text-transform: uppercase;
 
 .logo-text{
     font-size: 8px;
-}
-
-main{
-    margin: 16px 40px;
 }
 
 .intro-p {
@@ -330,11 +334,18 @@ main{
     border-right: none;
 }
 
+.step-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
 .step-content {
     display: flex;
     flex-direction: column;
     gap: 24px;
     list-style: decimal;
+    margin-left: -24px;
 }
 
 .step-text {
@@ -355,7 +366,7 @@ main{
 .wireframes {
     margin-top: 32px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap-reverse;
     gap: 80px;
@@ -369,7 +380,7 @@ main{
     width: 540px;
 }
 
-.prototypes-carousel {
+.carousel {
     margin: 0 auto;
     width: 80%;
     box-shadow: -1px -1px 36px 0px rgba(148,148,148,1);
@@ -383,4 +394,207 @@ main{
     align-items: center;
     border-radius: 1000px;
     background-color: var(--text-color);
+}
+
+/* big screens */
+@media (min-width: 1900px) {
+
+    .problem-banners {
+        justify-content: center;
+        gap: 120px;
+    }
+
+    .wireframes {
+        justify-content: inherit;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 80px;
+    }
+    
+    .wireframe {
+        width: 600px;
+    }
+    
+    .wireframe-bg {
+        width: 500px;
+    }
+
+}
+
+/* tablet */
+@media (max-width: 1300px) {
+
+    main {
+        margin: 16px;
+    }
+
+    .case-header {
+        margin-left: 24px;
+    }
+
+    span {
+        margin-left: 0px;
+    }
+
+    .specs {
+        display: block;
+    }
+    
+    .role-specs, .tools-specs {
+        justify-content: inherit;
+    }
+
+    .banner {
+        width: 103vw;
+    }
+    
+
+    .problem-banners {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .problem-banner {
+        width: 645px;
+        height: 340px;
+        border: 1px #c2c0c0 solid;
+        border-radius: 8px;
+    }
+
+    .user-persona {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .user-profile {
+        width: 100%;
+    }
+
+    .user-visual {
+        gap: 0;
+    }
+
+    .attributes {
+        display: flex;
+        flex-wrap: inherit;
+        gap: 24px;
+        margin-top: 0px;
+        margin-left: -32px;
+    }
+
+    .user-journey {
+        gap: 8px;
+    }
+
+    .step-content {
+        list-style: none;
+        padding-left: 24px;
+    }
+
+    .wireframe {
+        width: 355px;
+    }
+    
+    .wireframe-bg {
+        width: 285px;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+}
+
+/* phone */
+@media (max-width: 900px) {
+
+    .case-header {
+        margin-left: 0px;
+    }
+
+    body {
+        margin: 0 16px;
+        padding: 0;
+    }
+
+    main {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .banner {
+        width: 112%;
+    }
+
+    .role-specs, .tools-specs {
+        flex-wrap: nowrap;
+        gap: 40px;
+        justify-content: initial;
+    }
+
+    .s-title {
+        font-size: 20px;
+    }
+
+    .solution-metrics {
+        gap: 0px;
+    }
+
+    .problem-banner {
+        width: 400px;
+        height: 207px;
+        border: 1px #c2c0c0 solid;
+        border-radius: 8px;
+    }
+
+    .user-content {
+        padding: 8px;
+        gap: 16px;
+        align-items: inherit;
+    }
+    
+    .user-persona {
+        align-content: inherit;
+        gap: 10px;
+        margin-bottom: 4px;
+    }
+
+    .attributes {
+        flex-wrap: wrap;
+    }
+
+    .user-demographic {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-bottom: 24px;
+    }
+
+    .d-t {
+        margin-bottom: 0;
+    }
+
+    .user-journey {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .journey-step {
+        border-right: none;
+        padding: 0px;
+    }
+
+    .step-context {
+        margin-bottom: 8px;
+    }
+
+    .step-content {
+        gap: 8px;
+        margin-left: -24px;
+    }
+
 }
