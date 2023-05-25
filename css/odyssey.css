@@ -432,6 +432,11 @@ text-transform: uppercase;
         margin-left: 24px;
     }
 
+    .back {
+        margin-left: 16px;
+        margin-top: 24px;
+    }
+
     span {
         margin-left: 0px;
     }
@@ -445,9 +450,13 @@ text-transform: uppercase;
     }
 
     .banner {
-        width: 103vw;
+        width: 107%;
     }
     
+    .solution-metrics {
+        display: block;
+        gap: 0px;
+    }
 
     .problem-banners {
         display: flex;
@@ -508,16 +517,15 @@ text-transform: uppercase;
 }
 
 /* phone */
-@media (max-width: 900px) {
-
-    .case-header {
-        margin-left: 0px;
-    }
+@media (max-width: 750px) {
 
     body {
-        margin-left: 16px;
-        margin-right: -28px;
         padding: 0;
+        margin: 0 16px;
+    }
+
+    .case-header {
+        margin: 16px 0;
     }
 
     main {
@@ -525,8 +533,13 @@ text-transform: uppercase;
         padding: 0;
     }
 
+    .back {
+        margin-left: 8px;
+        margin-top: 24px;
+    }
+
     .banner {
-        width: 112%;
+        width: 104vw;
     }
 
     .role-specs, .tools-specs {
@@ -540,6 +553,7 @@ text-transform: uppercase;
     }
 
     .solution-metrics {
+        display: block;
         gap: 0px;
     }
 
