@@ -215,7 +215,6 @@ header {
 /* work content */
 
 .work-content {
-    display: none;
     flex-direction: column;
     gap: 16px;
     /* justify-content: space-between; */

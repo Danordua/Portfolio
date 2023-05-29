@@ -2,7 +2,7 @@
 
 :root {
     --text-color: #373530;
-    --background-color: #f5f8f8;
+    --background-color: #fbfbfb;
     --link-color: #306F91;
 }
 
@@ -83,15 +83,22 @@ ul {
     padding: 20px;
     margin-left: 40px;
     margin-top: 40px;
-    font-size: 32px;
     border: 2px var(--text-color) solid;
     border-radius: 100px;
+}
+
+.back-icon {
+    font-size: 32px;
+    color: var(--text-color);
+}
+
+.back-icon:hover {
+    color: var(--background-color);
 }
 
 .back:hover {
     border: none;
     background: var(--text-color);
-    color: var(--background-color);
     cursor: pointer;
 }
 
@@ -165,6 +172,28 @@ text-transform: uppercase;
     /* object-fit: contain; */
     /* width: 100%;
     height: 100%; */
+}
+
+.problem-quote {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 32px;
+    background-color: var(--link-color);
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+.p-quote {
+    margin-bottom: 0px;
+    font-style: italic;
+    color: var(--background-color);
+}
+
+.user-quote {
+    width: 160px;
 }
 
 .problem-banners {
@@ -388,12 +417,18 @@ text-transform: uppercase;
     -moz-box-shadow: -1px -1px 36px 0px rgba(148,148,148,1);
 }
 
-.next-bg {
-    padding:10px 10px;
+.carousel-control-prev, .carousel-control-next {
+    padding:10px 4px;
+    width: 80px;
+    opacity: .2;
     display: flex;
     align-items: center;
-    border-radius: 1000px;
+    /* border-radius: 1000px; */
     background-color: var(--text-color);
+}
+
+.carousel-item img {
+    width: 400px;
 }
 
 /* big screens */
