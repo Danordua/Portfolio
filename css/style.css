@@ -99,12 +99,11 @@ h3 {
 }
 
 .sm-link:hover {
-    color: var(--link-color);
+    color: #3189b8;
 }
 
 ul {
     list-style-type: none;
-    padding: 8px;
 }
 
 nav{
@@ -171,7 +170,7 @@ select {
 }
 
 header {
-    width: 85%;
+    width: 100%;
 }
 
 .main-content {
@@ -182,7 +181,10 @@ header {
 .about-text {
     margin-top: 40px;
     padding-bottom: 32px;
-    border-bottom: 4px var(--text-color) solid;
+}
+
+.info-points {
+    padding: 16px 8px;
 }
 
 .main-info {
@@ -220,7 +222,7 @@ header {
     /* justify-content: space-between; */
     padding-left: 24px;
     border-left: 4px var(--text-color) solid;
-    margin-bottom: 4.5vh;
+    margin-bottom: 5vh;
 }
 
 .case-study {
