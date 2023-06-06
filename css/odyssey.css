@@ -464,6 +464,16 @@ text-transform: uppercase;
     -moz-box-shadow: -1px -1px 36px 0px rgba(148,148,148,1);
 }
 
+.next-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #373530;
+}
+
 footer {
     padding: 40px 32px;
     text-align: center;
@@ -496,6 +506,28 @@ footer {
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+
+.comming-soon {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-img {
+    width: 400px;
+    margin-bottom: 24px;
+}
+
+.comming-title {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.comming-text {
+    font-size: 24px;
+    margin-bottom: 24px;
 }
 
 /* big screens */

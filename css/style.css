@@ -238,12 +238,11 @@ header {
 .cs-img {
     width: 400px;
     height: 140px;
-    background: #D9D9D9;
     margin-right: 40px;
 }
 
 .thumb-img {
-    width: 100%;
+    width: 290px;
     height: 100%;
     object-fit: cover;
 }
