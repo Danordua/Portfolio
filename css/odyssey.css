@@ -86,7 +86,7 @@ ul {
     align-items: center;
     width: 40px;
     height: 40px;
-    padding: 20px;
+    /* padding: 20px; */
     margin-left: 40px;
     margin-top: 40px;
     border: 2px var(--text-color) solid;
@@ -555,6 +555,33 @@ footer {
 
 }
 
+/* WBC Cares */
+
+.wf-wbcc {
+    width: 350px;
+}
+
+.prototypes-s {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 40px 0;
+    border-bottom: 1px #b2b2b2 solid;
+}
+
+.prototypes-s > img {
+    object-fit: contain;
+}
+
+.desktop-p {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.phone-p {
+    width: 22%;
+}
+
 /* tablet */
 @media (max-width: 1300px) {
 
@@ -758,6 +785,21 @@ footer {
         align-items: center;
         border-radius: 1000px;
         background-color: none;
+    }
+
+    .prototypes-s {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .desktop-p {
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .phone-p {
+        width: 80%;
     }
 
 }

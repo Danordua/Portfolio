@@ -11,7 +11,7 @@ odyssey.addEventListener('click', () => {
 })
 
 wbccares.addEventListener('click', () => {
-    location.replace("work-in-progress.html")
+    location.replace("wbccares.html")
 })
 
 wbcRegister.addEventListener('click', () => {
