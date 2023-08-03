@@ -15,7 +15,7 @@ wbccares.addEventListener('click', () => {
 })
 
 wbcRegister.addEventListener('click', () => {
-    location.replace("work-in-progress.html")
+    location.replace("wbcconvention.html")
 })
 
 

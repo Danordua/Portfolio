@@ -578,6 +578,25 @@ footer {
     width: 22%;
 }
 
+/* WBC Convention */
+
+.wbccon-prototypes {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 40px; */
+    justify-content:space-evenly;
+}
+
+.wbccon-p {
+    width: 600px;
+    margin-bottom: 80px;
+}
+
+.wbccon-w {
+    border: 2px var(--text-color) solid;
+    border-radius: 8px;
+}
+
 /* tablet */
 @media (max-width: 1300px) {
 
@@ -792,6 +811,12 @@ footer {
     
     .phone-p {
         width: 80%;
+    }
+
+    /* WBC Convention */
+
+    .wbccon-p {
+        width: 100%;
     }
 
 }
