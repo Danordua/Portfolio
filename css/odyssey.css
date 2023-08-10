@@ -641,11 +641,15 @@ footer {
         align-items: center;
     }
 
-    .problem-banner {
+    /* .problem-banner {
         width: 645px;
         height: 340px;
         border: 1px #c2c0c0 solid;
         border-radius: 8px;
+    } */
+
+    .process-diagram {
+        width: 645px;
     }
 
     .user-persona {
@@ -733,11 +737,15 @@ footer {
         flex-direction: column;
     }
 
-    .problem-banner {
+    .problem-img {
         width: 300px;
-        height: 155px;
+        height: 100%;
         border: 1px #c2c0c0 solid;
         border-radius: 8px;
+    }
+
+    .process-diagram {
+        width: 300px;
     }
 
     .user-content {
@@ -802,6 +810,10 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 32px;
+    }
+
+    .p-img {
+        width: 300px;
     }
 
     .desktop-p {
